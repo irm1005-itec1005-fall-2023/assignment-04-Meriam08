@@ -109,9 +109,9 @@ main{
 }
 .task-list h2{
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 800;
   margin-bottom: 1rem;
-  color: var(--gray);
+  color: var(--darkest);
 }
 #tasks .task{
   display: flex;
