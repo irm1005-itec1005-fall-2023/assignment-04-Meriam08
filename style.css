@@ -132,9 +132,7 @@ main{
   display: block;
   transition: 0.4s;
 }
-#tasks .task .content .text: not(:read-only){
-  color: var(--pink)
-}
+
 #tasks .task .actions {
   display: flex;
   margin: 0 -0.5rem;
