@@ -21,10 +21,52 @@
   <link rel="stylesheet" href="./style.css" />
 
   <!-- Set the Favicon  -->
-  <link rel="icon" href="./images/favicon/rocket.svg" type="image/svg+xml" />
+  <link rel="icon" href="./images/favicon.png" />
 </head>
 <body>
+<header>
+    <h1>My Todo List</h1>
 
+  <form id="new-task-form">
+    <input 
+    type="text" 
+    id="new-task-input"
+    placeholder="Add your text"/>
+    <input 
+    type="submit"
+    id="new-task-submit"
+    value="Add Task"/>
+    </form>
+</header>
+<main>
+  <section class="task-list">
+    <h2>Tasks</h2>
+    <!--<div id="tasks">
+
+      <div class="task">
+        <div class="content">
+        <input
+        type="text"
+        class="text"
+        value="My task"
+        readonly
+        />
+      </div>
+      <div class="actions">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+
+    </div>
+  </div>-->
+
+</div>
+  </section>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
   <!--
 
     Assignment 04 - Finishing a Todo List App
@@ -39,13 +81,6 @@
     - Have you conducted a code review and left a GitHub Issue on your team member's repo?
 
   -->
+<!-- Add JavaScript File -->
 
-  <main>
-    <div id="app"></div>
-  </main>
-
-  <!-- Add JavaScript File -->
-  <script src="./script.js"></script>
-
-</body>
-</html>
+      
